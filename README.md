@@ -1,4 +1,6 @@
 # Regularization in medical image registration
+![Alt text](figs/opt.png "optimization problem")
+
 This repo lists available code resources for different regularization techniques applied in medical image registration.
 For more information see the paper:
 
@@ -8,9 +10,13 @@ Feel free to contact me if you think there is something missing or you want to c
 
 ![Alt text](figs/overview.png "overview")
 ***
-![Alt text](figs/model-based.png "model-based")
 ## ✨ Model-based regularization ✨
- Model-based regularization applies a global, user-defined model on the deformation. 
+applies a model on the deformation that is
+ - global,
+ - user-defined, and
+ - based on prior assumptions.
+
+![Alt text](figs/model-based.png "model-based")
 
 ### ➡️ Some modular code bases with model-based methods:
 - Autograd Image Registration Laboratory: [https://github.com/airlab-unibas/airlab](https://github.com/airlab-unibas/airlab)
@@ -49,9 +55,13 @@ VoxelMorph (Balakrishnan et al. 2019):  [https://github.com/voxelmorph/voxelmorp
 ### ➡️ physics-inspired properties
 
 ***
-![Alt text](figs/problem-specific.png "problem-specific")
 ## ✨ Problem-specific regularization ✨
-ℹProblem-specific regularization is tailored towards the data by taking additional data knowledge into account. It is often spatially-adaptive.
+is 
+- tailored towards the data by 
+- taking additional data knowledge into account, that is
+- often spatially-adaptive.
+
+![Alt text](figs/problem-specific.png "problem-specific")
 
 ### ➡️ multi-structure registration
 
@@ -64,9 +74,12 @@ VoxelMorph (Balakrishnan et al. 2019):  [https://github.com/voxelmorph/voxelmorp
 - **sliding motion**
 - **cyclic motion**
 ***
-![Alt text](figs/learned.png "learned")
 ## ✨ learned regularization ✨
-ℹ️ Learned regularization uses ML/DL models to learn spatially-adaptive deformation properties from a training dataset.
+- uses ML/DL models to 
+- learn spatially-adaptive deformation properties 
+- from a training dataset.
+
+![Alt text](figs/learned.png "learned")
 
 ### ➡️ learned local smoothness properties
 
