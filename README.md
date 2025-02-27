@@ -1,8 +1,12 @@
 # Regularization in medical image registration
 ![Alt text](figs/opt.png "optimization problem")
 
-This repo lists available code resources for different regularization techniques applied in medical image registration.
-For more information see the paper:
+This repo lists available **code resources** for different regularization techniques applied in medical image registration.
+See our paper for
+- a comprehensive overview of regularization methods in conventional and learning-based registration, 
+- research gaps, 
+- open challenges in the field, and
+- future directions.
 
 🕮 **From Model Based to Learned Regularization in Medical Image Registration: A Comprehensive Review** (Reithmeir et al., 2025, in review). Available on [arXiv](https://arxiv.org/abs/2412.15740).
 
