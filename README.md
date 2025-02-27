@@ -71,15 +71,34 @@ is
 ![Alt text](figs/problem-specific.png "problem-specific")
 
 ### ➡️ multi-structure registration
+- Context-driven Pyramid Registration Network for Estimating Large Topology-preserved Deformation (Wang et al., 2023): [https://github.com/MedicalReg/CPRNet-main](https://github.com/MedicalReg/CPRNet-main)
+- SequenceMorph: A Unified Unsupervised Learning Framework for Motion Tracking on Cardiac Image Sequences (Ye et al., 2023): [https://github.com/DeepTag/SequenceMorph](https://github.com/DeepTag/SequenceMorph)
+- Recurrent Tissue-Aware Network for Deformable Registration of Infant Brain MR Images (wei et al., 2022): [https://github.com/Barnonewdm/RTA-Net](https://github.com/Barnonewdm/RTA-Net)
+- A Deep Discontinuity-Preserving Image Registration Network (chen et al., 2021): [https://github.com/ccmim/DDIR](https://github.com/ccmim/DDIR)
 
 ### ➡️ images with topology changes
 - **missing regions**
+  - Preserving Tumor Volumes for Unsupervised Medical Image Registration (Dong et al., 2023): [https://dddraxxx.github.io/Volume-Preserving-Registration/](https://dddraxxx.github.io/Volume-Preserving-Registration/)
+  - Weighted Metamorphosis for Registration of Images with Different Topologies (Francois et al., 2022): [https://github.com/antonfrancois/Demeter_metamorphosis.](https://github.com/antonfrancois/Demeter_metamorphosis.)
 - **shrinking/growing regions**
+  - TopAwaRe: Topology-Aware Registration (Nielsen et al., 2019): [https://github.com/RuneKokNielsen/TopAwaRe](https://github.com/RuneKokNielsen/TopAwaRe)
+  - Spot the Difference: Detection of Topological Changes via Geometric Alignment (Czolbe et al., 2021): [https://github.com/SteffenCzolbe/TopologicalChangeDetection](https://github.com/SteffenCzolbe/TopologicalChangeDetection)
+  - Co-Learning Semantic-aware Unsupervised Segmentation for Pathological Image Registration (Liu et al., 2023): [https://github.com/brain-intelligence-lab/GIRNet](https://github.com/brain-intelligence-lab/GIRNet)
+  - Unsupervised Deformable Image Registration with Absent Correspondences in Pre-operative and Post-Recurrence Brain Tumor MRI Scans (Mok et al., 2022): [https://github.com/cwmok/DIRAC](https://github.com/cwmok/DIRAC)
 
 ### ➡️ organ-specific motion
 
 - **sliding motion**
+  - Directional averages for motion segmentation in discontinuity preserving image registration (Jud et al., 2017): [https://github.com/ChristophJud/DAMSRegistration](https://github.com/ChristophJud/DAMSRegistration)
+  - Bilateral regularization in reproducing kernel hilbert spaces for discontinuity preserving image registration (jud et al., 2016): [https://github.com/ChristophJud/SKMImageRegistration.git](https://github.com/ChristophJud/SKMImageRegistration.git)
+  - Edge- and detail-preserving sparse image representations for deformable registration of chest MRI and CT volumes (Heinrich et al., 203): [https://github.com/multimodallearning/slic_reg](https://github.com/multimodallearning/slic_reg)
+  - Sparse kernel machines for discontinuous registration and nonstationary regularization (jud et al., 2016): [https://github.com/ChristophJud/SKMImageRegistration](https://github.com/ChristophJud/SKMImageRegistration)
+  - Arbitrary Order Total Variation (AOTV) for Deformable Image Registration (Duan et al., 2023): [https://github.com/j-duan/AOTV](https://github.com/j-duan/AOTV)
+
 - **cyclic motion**
+  - SequenceMorph: A Unified Unsupervised Learning Framework for Motion Tracking on Cardiac Image Sequences (Ye et al., 2023): [https://github.com/DeepTag/SequenceMorph](https://github.com/DeepTag/SequenceMorph)
+  - Cardiac motion estimation from medical images: a regularisation framework applied on pairwise image registration displacement fields (Wiputra et al., 2020): [https://github.com/WeiXuanChan/motionSegmentation](https://github.com/WeiXuanChan/motionSegmentation)
+  
 ***
 ## ✨ learned regularization ✨
 - uses ML/DL models to 
