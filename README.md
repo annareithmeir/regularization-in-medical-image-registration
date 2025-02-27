@@ -50,9 +50,16 @@ applies a model on the deformation that is
 
 ### ➡️ diffeomorphisms
 - LapIRN (mok et al. 2019): [https://github.com/cwmok/LapIRN](https://github.com/cwmok/LapIRN)
-VoxelMorph (Balakrishnan et al. 2019):  [https://github.com/voxelmorph/voxelmorph](https://github.com/voxelmorph/voxelmorph)
+- VoxelMorph (Balakrishnan et al. 2019):  [https://github.com/voxelmorph/voxelmorph](https://github.com/voxelmorph/voxelmorph)
+- Learning Diffeomorphism for Image Registration with Time-Continuous Networks using Semigroup Regularization (Matinkia, 2024): [https://github.com/mattkia/SGDIR/](https://github.com/mattkia/SGDIR/)
+- Diffeomorphic Image Registration Using Lipschitz Continuous Residual Networks (Joshi et al., 2022): [Diffeomorphic Image Registration Using Lipschitz Continuous Residual Networks.](Diffeomorphic Image Registration Using Lipschitz Continuous Residual Networks.)
+- Networks for Joint Affine and Non-Parametric Image Registration (Shen et al., 2015): [https://github.com/uncbiag/easyreg](https://github.com/uncbiag/easyreg)
+- 
 
 ### ➡️ physics-inspired properties
+- Non-rigid Medical Image Registration using Physics-informed Neural Networks (min et al., 2023): [https://github.com/ZheMin-1992/Registration_PINNs](https://github.com/ZheMin-1992/Registration_PINNs)
+- WarpPINN: Cine-MR image registration with physics-informed neural networks (Arratia Lopez et al., 2023):[https://github.com/fsahli/WarpPINN](https://github.com/fsahli/WarpPINN)
+- Biomechanics-Informed Non-rigid Medical Image Registration and its Inverse Material Property Estimation with Linear and Nonlinear Elasticity (Min et al., 2024): [https://github.com/ZheMin-1992/Registration_PINNs](https://github.com/ZheMin-1992/Registration_PINNs)
 
 ***
 ## ✨ Problem-specific regularization ✨
