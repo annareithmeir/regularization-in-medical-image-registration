@@ -113,11 +113,67 @@ is
 
 ### ➡️ learned local smoothness properties
 
+- **spatially varying smoothness**
+  - Metric learning for image registration (Niethammer et al., 2019): [https://github.com/uncbiag/registration](https://github.com/uncbiag/registration)
+  - Region-specific diffeomorphic metric mapping (Shen et al., 2019): [https://github.com/uncbiag/registration](https://github.com/uncbiag/registration)
+  - Learning-based image registration with meta-regularization (Al Safadi, Song, 2021)
+- **learned local discontinuities**
+  - Learning a model-driven variational network for deformable image registration (Jia et al., 2022): [https://github.com/xi-jia/Learning-a-Model-Driven-Variational-Network-for-Deformable-Image-Registration](https://github.com/xi-jia/Learning-a-Model-Driven-Variational-Network-for-Deformable-Image-Registration)
+  - Image registration with learned regularization (Lai et al., 2023)
+
 ### ➡️ learned feasible deformation spaces
+
+- **PCA models**
+  - Non-rigid brain image registration using a statistical deformation model (Wouters et al., 2006)
+  - A statistical motion model based on biomechanical simulations for data fusion during image-guided prostate interventions (Hu et al., 2008)
+  - Principal component based diffeomorphic surface mapping (Qiu et al., 2012)
+  - Statistically-constrained robust diffeomorphic registration (Zeng et al., 2018)
+  - Non-rigid image registration using a statistical spline deformation model (Loeckx et al., 2003)
+  - Statistical representation of high-dimensional deformation fields with application to statistically constrained 3d warping (Xue et al., 2006)
+  - Deformable registration of brain tumor images via a statistical model of tumor-induced deformation (Mohamed et al., 2006)
+  - Local statistical deformation models for deformable image registration (Tang et al., 2018)
+  - Learning-based deformation estimation for fast non-rigid registration (Kim et al., 2008)
+  - Using statistical deformation models for the registration of multimodal breast images (Tanner et al., 2009)
+
+
+- **PCA models - soft constraints**
+  - A statistical deformation prior for non-rigid image and shape registration (Albrecht et al., 2008)
+  - Free-form image registration regularized by a statistical shape model: application to organ segmentation in cervical mr (Berendsen et al., 2013)
+  - A novel non-rigid registration method based on nonparametric statistical deformation model for medical image analysis (Cui et al., 2017)
+  - Multiresolution registration network (mrn) hierarchy with prior knowledge learning (Gu et al., 2021)
+  - Deepasdm: a deep learning framework for affine and deformable image registration incorporating a statistical deformation model (Gao et al., 2021)
+
+
+- **variational autoencoders/GANs**
+  - Adversarial deformation regularization for training image registration neural networks (Hu et al., 2018)
+  - A cooperative autoencoder for population-based regularization of cnn image registration (Bhalodia et al., 2019)
+  - Enhanced image registration with a network paradigm and incorporation of a deformation representation model (Sang, Ruan, 2020)
+  - 4d-cbct registration with a fbct-derived plug-and-play feasibility regularizer (Sang, Ruan, 2021)
+  - Inter-phase 4d cardiac mri registration with a motion prior derived from cta (Sang et al., 2022)
+  - Biomechanics-informed neural networks for myocardial motion tracking in mri (Qin et al., 2020): [https://github.com/cq615/Biomechanics-informed-motion-tracking](https://github.com/cq615/Biomechanics-informed-motion-tracking)
+  - Learning deformable registration of medical images with anatomical constraints (Mansilla et al., 2020): [https://github.com/lucasmansilla/ACRN_Chest_X-ray_IA](https://github.com/lucasmansilla/ACRN_Chest_X-ray_IA)
+
+
+- **decoder-only approaches**
+  - Imposing implicit feasibility constraints on deformable image registration using a statistical generative model (Sang et al., 2020)
+  - Generative myocardial motion tracking via latent space exploration with biomechanics-informed prior (Qin et al., 2023): [https://github.com/cq615/BIGM-motion-tracking](https://github.com/cq615/BIGM-motion-tracking)
 
 ### ➡️ test time adaptive regularization
 
-conditional global L2 regularization
-- HyperMorph (Hoopes et al. 2021):  [https://github.com/voxelmorph/voxelmorph](https://github.com/voxelmorph/voxelmorph)
-- conditional LapIRN (Mok et al. 2021): [https://github.com/cwmok/Conditional_LapIRN](https://github.com/cwmok/Conditional_LapIRN)
+- **conditional global L2 regularization**
+  - HyperMorph (Hoopes et al. 2021):  [https://github.com/voxelmorph/voxelmorph](https://github.com/voxelmorph/voxelmorph)
+  - Conditional LapIRN (Mok et al. 2021): [https://github.com/cwmok/Conditional_LapIRN](https://github.com/cwmok/Conditional_LapIRN)
+
+
+-  **conditional spatially-adaptive regularization**
+    - Conditional deformable image registration with spatially-variant and adaptive regularization (wang et al., 2023)
+    - Spatially-varying regularization with conditional transformer for unsupervised image registration (Chen et al., 2023)
+    - Hierarchical multi-level dynamic hyperparameter deformable image registration with convolutional neural network (Zhu et al., 2024)
+    - Learning physics-inspired regularization for medical image registration with hypernetworks (Reithmeir et al., 2024)
+    - Data-driven tissue- and subject-specific elastic regularization for medical image registration (Reithmeir et al., 2024)
+
+
+- **Others**
+  - Hyperpredict: Estimating hyperparameter effects for instance-specific regularization in deformable image registration (Shuaibu et al., 2024)
+  - Double-uncertainty guided spatial and temporal consistency regularization weighting for learning-based abdominal registration (Xu et al., 2022)
 ***
